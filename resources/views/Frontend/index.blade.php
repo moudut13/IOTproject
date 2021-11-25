@@ -9,14 +9,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('frontend/assets/css/main.css') }}" />
-        <link rel="icon" type="image" href="frontend/images/favicon.png">
+        <link rel="icon" type="image" href="{{ asset('frontend/images/favicon.png') }}">
 	</head>
 	<body class="landing is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1><a href="{{ route('frontend.index') }}">Power Station Pvt Company Ltd</a></h1>
+					<h1><a href="{{ route('frontend.index') }}">MM Power Station Pvt Company Ltd</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="{{ route('frontend.index') }}">Home</a></li>
@@ -30,7 +30,7 @@
 
 			<!-- Banner -->
 				<section id="banner">
-					<h2>Power Station Pvt Company Ltd</h2>
+					<h2>MM Power Station Pvt Company Ltd</h2>
 					<p>Electricity is the power of our energy.</p>
 					<ul class="actions special">
 						<!--<li><a href="#" class="button primary">Sign Up</a></li>-->
@@ -43,37 +43,40 @@
 
 					<section class="box special">
 						<header class="major">
-							<h2>Introducing the ultimate mobile app
+							<h2>Introducing the ultimate power
 							<br />
-							for doing stuff with your phone</h2>
+							for doing MM Power Station Pvt Company Ltd</h2>
 							<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
 							adipiscing nunc adipiscing. Condimentum turpis massa.</p>
 						</header>
-						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+						<span class="image featured "><img src="images/pic01.jpg" alt="" /></span>
 					</section>
 
 					<section class="box special features">
 						<div class="features-row">
 							<section>
 								<span class="icon solid major fa-bolt accent2"></span>
-								<h3>Magna etiam</h3>
+								<h3>Power</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 							</section>
 							<section>
-								<span class="icon solid major fa-chart-area accent3"></span>
-								<h3>Ipsum dolor</h3>
+                                <!--icon solid major fa-chart-area accent3-->
+								<span class=""><img style="width: 80px;margin-bottom: 40px;" src="{{ asset('frontend/images/2.png') }}" alt="" /></span>
+								<h3>Distribution Line</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 							</section>
 						</div>
 						<div class="features-row">
 							<section>
-								<span class="icon solid major fa-cloud accent4"></span>
-								<h3>Sed feugiat</h3>
+                                <!--icon solid major fa-cloud accent4 -->
+								<span class=""><img style="width: 80px" src="{{ asset('frontend/images/1.png') }}" alt="" /></span>
+								<h3>Transmission Line</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 							</section>
 							<section>
-								<span class="icon solid major fa-lock accent5"></span>
-								<h3>Enim phasellus</h3>
+                                <!--icon solid major fa-lock accent5-->
+								<span class=""><img style="width: 80px" src="{{ asset('frontend/images/4.png') }}" alt="" /></span>
+								<h3>Generator</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 							</section>
 						</div>
@@ -83,7 +86,7 @@
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
-								<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
+								<span class="image featured"><img src="{{ asset('frontend/images/pic02.jpg') }}" alt="" /></span>
 								<h3>Sed lorem adipiscing</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 								<ul class="actions special">
@@ -95,7 +98,7 @@
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
-								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
+								<span class="image featured"><img src="{{ asset('frontend/images/pic03.jpg') }}" alt="" /></span>
 								<h3>Accumsan integer</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 								<ul class="actions special">
@@ -138,7 +141,7 @@
 						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Copyright &copy; 2021 MM Power Station Pvt Company Ltd. All rights reserved.</li><li>Design: <a href="https://www.facebook.com/moudut.shuvo13">Moudut Ahmad Khondoker</a></li>
 					</ul>
 				</footer>
 

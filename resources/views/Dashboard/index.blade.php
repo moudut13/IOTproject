@@ -36,51 +36,73 @@
         <div class="col-md-12">
 
             <!-- Recent Orders -->
-            <div class="card card-table">
-                <div class="card-header">
-                    <h4 class="card-title">Appointment List</h4>
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="dash-widget-header">
+										<span class="dash-widget-icon text-primary border-primary">
+											<i class="fe fe-users"></i>
+										</span>
+                                <div class="dash-count">
+                                    <h3>220</h3>
+                                </div>
+                            </div>
+                            <div class="dash-widget-info">
+                                <h6 class="text-muted">Voltage</h6>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-hover table-center mb-0">
-                            <thead>
-                            <tr>
-                                <th>Doctor Name</th>
-                                <th>Speciality</th>
-                                <th>Patient Name</th>
-                                <th>Apointment Time</th>
-                                <th>Status</th>
-                                <th class="text-right">Amount</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>
-                                    <h2 class="table-avatar">
-                                        <a href="profile.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="backend/assets/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
-                                        <a href="profile.html">Dr. Ruby Perrin</a>
-                                    </h2>
-                                </td>
-                                <td>Dental</td>
-                                <td>
-                                    <h2 class="table-avatar">
-                                        <a href="profile.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="backend/assets/img/patients/patient1.jpg" alt="User Image"></a>
-                                        <a href="profile.html">Charlene Reed </a>
-                                    </h2>
-                                </td>
-                                <td>9 Nov 2019 <span class="text-primary d-block">11.00 AM - 11.15 AM</span></td>
-                                <td>
-                                    <div class="status-toggle">
-                                        <input type="checkbox" id="status_1" class="check" checked>
-                                        <label for="status_1" class="checktoggle">checkbox</label>
-                                    </div>
-                                </td>
-                                <td class="text-right">
-                                    $200.00
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
+                <div class="col-xl-3 col-sm-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="dash-widget-header">
+										<span class="dash-widget-icon text-success">
+											<i class="fe fe-credit-card"></i>
+										</span>
+                                <div class="dash-count">
+                                    <h3>12</h3>
+                                </div>
+                            </div>
+                            <div class="dash-widget-info">
+                                <h6 class="text-muted">Current</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="dash-widget-header">
+										<span class="dash-widget-icon text-danger border-danger">
+											<i class="fe fe-money"></i>
+										</span>
+                                <div class="dash-count">
+                                    <h3>2640</h3>
+                                </div>
+                            </div>
+                            <div class="dash-widget-info">
+                                <h6 class="text-muted">Power</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="dash-widget-header">
+										<span class="dash-widget-icon text-warning border-warning">
+											<i class="fe fe-folder"></i>
+										</span>
+                                <div class="dash-count">
+                                    <h3>3000</h3>
+                                </div>
+                            </div>
+                            <div class="dash-widget-info">
+                                <h6 class="text-muted">Power</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

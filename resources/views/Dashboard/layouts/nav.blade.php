@@ -8,6 +8,15 @@
                 <li class="active">
                     <a href="{{ route('admin.dashboard') }}"><i class="fe fe-home"></i> <span>Dashboard</span></a>
                 </li>
+                <li class="">
+                    <a href=""><i class="fe fe-user"></i> <span>User</span></a>
+                </li>
+                <li class="">
+                    <a href="{{ route('admin.settings') }}"><i class="fe fe-vector"></i> <span>Settings</span></a>
+                </li>
+                <li class="">
+                    <a href="{{ route('admin.profile') }}"><i class="fe fe-user"></i> <span>Profile</span></a>
+                </li>
             </ul>
         </div>
     </div>

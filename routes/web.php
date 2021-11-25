@@ -26,6 +26,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //Admin Route
 Route::group(['as' => 'admin.','prefix' => 'admin','namespace' => 'App\Http\Controllers\admin','middleware'=>['auth','admin']], function(){
     Route::get('dashboard','DashboardController@index')->name('dashboard');
+    Route::get('profile','DashboardController@profile')->name('profile');
+    Route::get('settings','DashboardController@settings')->name('settings');
+
 });
 
 //Author Route
